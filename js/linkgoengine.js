@@ -1,3 +1,6 @@
+/*
+ * LinkGoEngine
+*/
 (function(window){
 	var LinkGoEngine = (function(){
 		var LinkGoEngine = function(initSettings){
