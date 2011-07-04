@@ -1,7 +1,12 @@
 (function(window){
 	var LinkGoEngine = (function(){
-		var LinkGoEngine=function(){
-			return LinkGoEngine().init();
+		var LinkGoEngine = function(initSettings){
+			return new LinkGoEngine().init(initSettings);
+		};
+		LinkGoEngine.prototype = {
+			init: function(initSettings){
+
+			},
 		};
 		return LinkGoEngine;
 	})();
