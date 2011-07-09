@@ -1,6 +1,6 @@
 /*
  * LinkGoEngine
-*/
+ */
 (function(window) {
 	var LinkGoEngine = (function() {
 		var LinkGoEngine = function(initSettings) {
@@ -12,7 +12,7 @@
 				row = settings && typeof settings.row == "number" ? settings.row: null,
 				column = settings && typeof settings.column == "number" ? settings.column: null,
 				category = settings && typeof settings.category == "number" ? settings.category: null,
-				members = settings && typeof settings.memebers == "number" ? settings.members: null;
+				members : settings && typeof settings.memebers == "number" ? settings.members: null;
 
 				// init matrix
 				this.initMatrix(row, column);
